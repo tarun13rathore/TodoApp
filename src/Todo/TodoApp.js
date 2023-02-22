@@ -90,7 +90,7 @@ const TodoApp = () => {
                   // onClear={onChecked}
                 />
               ))}
-              {todos.length != [] ? (
+              {todos.length !== [] ? (
                 <>
                   <button
                     className="add"
